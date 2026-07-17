@@ -7,7 +7,7 @@
 
 Welcome to my personal web portfolio. This is a highly interactive, responsive, and tactile single-page application built using clean, semantic HTML5, modern CSS Grid/Flexbox layouts, and optimized vanilla JavaScript. It is styled with a custom-engineered dark maroon aesthetic, complete with a dynamic HUD progress tracker, scroll-activated reveals, and custom 3D card tilt effects.
 
-🔗 **Live Link:** [umaima0.github.io](http://127.0.0.1:3000/index.html?vscode-livepreview=true) 
+🔗 **Live Link:** [umaima0.Portfolio](http://127.0.0.1:3000/index.html?vscode-livepreview=true) 
 ---
 
 ## 🛠️ Tech Stack & Utilities
