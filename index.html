@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umaima Mumtaz — Portfolio</title>
+<meta name="description" content="Umaima Mumtaz — Computer Science student working across AI/ML, full-stack development, and databases.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- HUD navigation -->
+<nav class="hud" id="hud" aria-label="Section navigation">
+  <div class="hud-track">
+    <div class="hud-progress" id="hudProgress"></div>
+  </div>
+  <ul class="hud-list">
+    <li><a href="#intro" data-target="intro"><span class="hud-dot"></span><span class="hud-label">INTRO</span></a></li>
+    <li><a href="#about" data-target="about"><span class="hud-dot"></span><span class="hud-label">ABOUT</span></a></li>
+    <li><a href="#projects" data-target="projects"><span class="hud-dot"></span><span class="hud-label">PROJECTS</span></a></li>
+    <li><a href="#certifications" data-target="certifications"><span class="hud-dot"></span><span class="hud-label">CERTIFICATES</span></a></li>
+    <li><a href="#contact" data-target="contact"><span class="hud-dot"></span><span class="hud-label">CONTACT</span></a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ============ INTRO ============ -->
+  <section id="intro" class="section hero">
+
+    <div class="hero-content" id="heroContent">
+      <p class="kicker">PORTFOLIO</p>
+      <h1 class="hero-title">UMAIMA MUMTAZ</h1>
+      <p class="hero-sub">Computer Science student building at the intersection of <span class="hl">AI/ML</span> and full-stack development.</p>
+      <div class="hero-meta">
+        <span>INSTITUTE OF SPACE TECHNOLOGY · ISLAMABAD</span>
+        <span class="sep">/</span>
+        <span>OPEN TO WORK</span>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to next section">
+      <span>SCROLL</span>
+      <span class="scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+
+<section id="about" class="section">
+  <div class="section-inner crew-grid">
+    <div class="reveal">
+      <p class="kicker">ABOUT</p>
+      <h2 class="section-title">A little about me</h2>
+      <p class="body-text">
+        I'm Umaima Mumtaz, a third-year Computer Science student. I enjoy building practical,
+        data-driven applications — from AI/ML models to full-stack web apps — and I like understanding
+        a system properly rather than just shipping the assignment.
+      </p>
+      <p class="body-text">
+        I'm currently looking for internship opportunities where I can keep learning and contribute
+        to real, hands-on projects.
+      </p>
+
+      <dl class="specs">
+        <div class="specs-row"><dt>INSTITUTION</dt><dd>Institute of Space Technology, Islamabad</dd></div>
+        <div class="specs-row"><dt>CGPA</dt><dd>3.17 / 4.00</dd></div>
+        <div class="specs-row"><dt>FOCUS</dt><dd>AI/ML · Web Development · Databases</dd></div>
+        <div class="specs-row"><dt>STATUS</dt><dd>Seeking internship — Rawalpindi / Islamabad</dd></div>
+      </dl>
+    </div>
+
+    <div class="reveal photo-frame-wrap">
+      <div class="photo-frame">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <div class="photo-placeholder" id="photoSlot">
+          <img src="assests/profile.jpeg" class="photo-img" alt="Umaima Mumtaz">
+  
+          <svg viewBox="0 0 200 200" class="photo-silhouette" aria-hidden="true">
+            <circle cx="100" cy="78" r="38"/>
+            <path d="M40 190 C40 135 65 112 100 112 C135 112 160 135 160 190 Z"/>
+          </svg>
+          <p class="photo-note">PHOTO: not yet added<br>— drop your image in here —</p>
+        </div>
+        <div class="photo-caption">
+          <span class="t-label">NAME</span> UMAIMA MUMTAZ &nbsp;·&nbsp; <span class="t-label">ROLE</span> CS STUDENT
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ============ PROJECTS ============ -->
+
+<section id="projects" class="section">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="kicker">PROJECTS</p>
+      <h2 class="section-title">projects</h2>
+    </div>
+
+    <div class="missions-list">
+
+      <article class="mission-card reveal" data-tilt>
+        <div class="mission-body">
+          <div class="mission-head">
+            <span class="mission-index">PROJECT 01</span>
+          </div>
+          <h3 class="mission-title">Space Explorer</h3>
+          <p class="mission-desc">
+            A web app for tracking live rocket launches and logging personal sky observations.
+            I built the Live Launch Tracker and Observation Log modules — pulling real-time data
+            from the SpaceDevs API and NASA's Astronomy Picture of the Day, and combining Stellarium
+            Web with geolocation to surface what's actually visible in the sky from wherever you are.
+            The backend runs on MongoDB, with schema design and aggregation pipelines handling the
+            heavier querying.
+          </p>
+          <ul class="mission-stack">
+            <li>MongoDB</li><li>Mongoose</li><li>SpaceDevs API</li><li>NASA APOD API</li><li>Stellarium Web</li><li>Geolocation API</li>
+          </ul>
+          <div class="mission-links">
+            <a href="https://github.com/fazasfz/SPACEEXPLORER/tree/main/SpaceExplorer2.0" class="mission-link">REPO ↗</a>
+          </div>
+        </div>
+        <div class="mission-visual">
+          <img src="assests/space-explorer.png" alt="Space Explorer Screenshot" class="mission-img">
+        </div>
+      </article>
+
+      <article class="mission-card reveal" data-tilt>
+        <div class="mission-body">
+          <div class="mission-head">
+            <span class="mission-index">PROJECT 02</span>
+          </div>
+          <h3 class="mission-title">Smart Recipe Finder</h3>
+          <p class="mission-desc">
+            An AI-powered recipe recommender trained on a real Kaggle dataset. BFS and A* search
+            narrow recipes down by ingredient constraints, while KNN and K-Means handle similarity
+            matching and clustering to power the recommendations. Frontend built with Streamlit
+            and Flask.
+          </p>
+          <ul class="mission-stack">
+            <li>Python</li><li>BFS / A*</li><li>KNN</li><li>K-Means</li><li>Streamlit</li><li>Flask</li>
+          </ul>
+          <div class="mission-links">
+            <a href="https://github.com/umaima0/Recipe-Engine" class="mission-link">REPO ↗</a>
+          </div>
+        </div>
+        <div class="mission-visual">
+          <img src="assests/recipe-finder.png" alt="Smart Recipe Finder Screenshot" class="mission-img">
+        </div>
+      </article>
+
+      <article class="mission-card reveal" data-tilt>
+        <div class="mission-body">
+          <div class="mission-head">
+            <span class="mission-index">PROJECT 03</span>
+          </div>
+          <h3 class="mission-title">HappiTail – Virtual Pet Simulator </h3>
+          <p class="mission-desc">
+            Designed a real-time desktop pet simulator inspired by Tamagotchi, implementing state-based behavior systems 
+            (hunger, mood, energy) with species-specific actions. Engineered pixel-art animations and interactive feedback loops; structured codebase using OOP principles for clean 
+            state management and extensibility.
+          </p>
+          <ul class="mission-stack">
+            <li>C++</li><li>SFML</li>
+          </ul>
+          <div class="mission-links">
+            <a href="https://github.com/umaima0/HappiTail-Virtual-Pet-Stimulator" class="mission-link">REPO ↗</a>
+          </div>
+        </div>
+        <div class="mission-visual">
+          <img src="assests/happitail.jpg" alt="Assembly Game Screenshot" class="mission-img">
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section id="certifications" class="section">
+    <div class="section-inner">
+      <div class="reveal">
+        <p class="kicker">CERTIFICATIONS</p>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
+      <div class="cert-list">
+
+        <div class="cert-card reveal">
+          <div class="cert-image">
+            <img src="https://media.licdn.com/dms/image/v2/D4E22AQHfNcVfdKA06g/feedshare-image-high-res/B4EZlRBNBVK0Ao-/0/1758000929372?e=1785974400&v=beta&t=KeN69juf30AnsFMD4vDwdH3-Sk-9SZcY2IwdjJS-OLI" alt="Machine Learning certificate" loading="lazy">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Machine Learning</h3>
+            <p class="cert-issuer">Stanford University</p>
+            <!-- REPLACE ME: the link below is a localhost dev link and won't work for visitors — swap in your real credential URL -->
+            <a href="https://www.coursera.org/account/accomplishments/verify/V516W8VZ3AH3" class="mission-link" target="_blank" rel="noopener">VIEW CREDENTIAL ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-image">
+            <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~0VCSS75WGMVN/CERTIFICATE_LANDING_PAGE~0VCSS75WGMVN.jpeg" alt="Version Control certificate" loading="lazy">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Version Control</h3>
+            <!-- REPLACE ME: add the actual issuing organization -->
+            <p class="cert-issuer">Meta</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/0VCSS75WGMVN" class="mission-link" target="_blank" rel="noopener">VIEW CREDENTIAL ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-image">
+            <img src="https://media.licdn.com/dms/image/v2/D4E22AQGQHgoBgZnYdQ/feedshare-shrink_1280/B4EZkAIp9jHoA0-/0/1756643894813?e=1785974400&v=beta&t=8d9FTb0WNqn1RrcBjap_ca13O5snuZcZI3Xl8NEUK1Y" alt="Python certificate" loading="lazy">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Python for Data Science, ai and development</h3>
+            <!-- REPLACE ME: add the actual issuing organization -->
+            <p class="cert-issuer">IBM</p>
+            <a href="https://www.credly.com/badges/6d496c04-e680-4e02-b15d-6d92af26da60/linked_in_profile" class="mission-link" target="_blank" rel="noopener">VIEW CREDENTIAL ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section transmit">
+    <div class="section-inner">
+      <div class="reveal">
+        <p class="kicker">CONTACT</p>
+        <h2 class="section-title">Get in touch</h2>
+        <p class="body-text">
+          Open to internships and collaborations. Feel free to reach out:
+        </p>
+
+        <a href="mailto:umaimamumtaz20@gmail.com" class="transmit-email">umaimamumtaz20@gmail.com</a>
+
+        <div class="transmit-links">
+          <a href="https://github.com/umaima0" class="transmit-link">GITHUB ↗</a>
+          <a href="https://www.linkedin.com/in/umaima-mumtaz-928856332/" class="transmit-link">LINKEDIN ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Umaima Mumtaz</span>
+    </footer>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
