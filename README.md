@@ -1,4 +1,4 @@
-# ── PORTFOLIO // UMAIMA MUMTAZ ──
+# PORTFOLIO | UMAIMA MUMTAZ
 > Computer Science student building at the intersection of AI/ML, Databases, and Full-Stack Web Applications.
 
 ---
